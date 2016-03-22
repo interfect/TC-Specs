@@ -43,7 +43,7 @@ The second and third groups of bits are ignored if power ≠ 2. If the most sign
 |------------------|----------------------|----------------------------------------------|-----------------------------------------------|----------------------------------------------------|
 | Range:        | 0-2                  | 0-F                                          | 0-F                                           | 0-F                                                |
 | Holds            | Power State          | Blink On                                     | Blink Off                                     | Color                                              |
-|                  | 0=off, 1=on, 2=blink | How many decaseconds to stay on during blink | How many decaseconds to stay off during blink | Hex representation of color (Same spec as LEM1802) |
+|                  | 0=off, 1=on, 2=blink | How many deciseconds to stay on during blink | How many deciseconds to stay off during blink | Hex representation of color (Same spec as LEM1802) |
                                       
 Examples
 ----  
